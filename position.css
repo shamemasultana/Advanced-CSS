@@ -1,0 +1,33 @@
+body{
+    height: 200vh;
+}
+.outer-container{
+    border: 2px solid black;
+    height: 75vh;
+    width: 65vw;
+    margin: 40px auto;
+}
+.inner-container{
+    border: 2px solid red;
+    height: 35vh;
+    width: 35vw;
+    margin: 150px auto;
+    position: relative;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    padding: 0.5rem;
+}
+.absolute{
+    background-color: brown;
+    position: absolute;
+    top: 4vh;
+   right:12vw;
+}
+.Fixed{
+    background-color: aqua;
+    position: fixed;
+    top: 100px;
+    left: 200px;
+}
